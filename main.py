@@ -16,10 +16,4 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-from hriu.mask_tools import MaskedNorm
-
-mn = MaskedNorm()
-x = torch.rand(5,16,16,10)
-mask = torch.bernoulli(x)
-mn(x, mask)
 

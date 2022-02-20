@@ -8,9 +8,9 @@ from torch import bool as torch_bool
 from torch.nn import Module, Parameter, Linear
 from torch.nn.init import uniform_
 
-from hriu.utils import tuple_n, prod, iterate
-from hriu.mask_tools import MaskedSoftmax, MaskedNorm, mask_values, masked_average2D, union_mask
-from hriu.windows import SpanningWindows, join_windows
+from .utils import tuple_n, prod, iterate
+from .mask_tools import MaskedSoftmax, MaskedNorm, mask_values, masked_average2D, union_mask
+from .windows import SpanningWindows, join_windows
 
 
 norm_dims = (-3, -2)

@@ -2,8 +2,8 @@
 from torch import full
 from torch.nn.functional import pad
 
-from utils import tuple_n
-from mask_tools import mask_values
+from .utils import tuple_n
+from .mask_tools import mask_values
 
 class SpanningWindows:
 
