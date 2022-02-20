@@ -1,8 +1,8 @@
 # Tools to deal with masking pytorch tensors with zeros corresponding to masked elements and ones to unmasked
 from abc import ABC
 
-from .nn import Module, Softmax
-from .linalg import vector_norm
+from torch.nn import Module, Softmax
+from torch.linalg import vector_norm
 
 
 mask_values = {'masked': 0., 'unmasked': 1.}
