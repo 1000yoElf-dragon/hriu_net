@@ -1,3 +1,4 @@
+print('++Setup++')
 from distutils.core import setup
 setup(name='hriu',
       version='0.0',
