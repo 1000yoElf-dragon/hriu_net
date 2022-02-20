@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 from IPython.display import ProgressBar
 from torch import cuda, no_grad
 
-from utils import Absolute
+from hriu.utils import Absolute
 
 
 class Metric:

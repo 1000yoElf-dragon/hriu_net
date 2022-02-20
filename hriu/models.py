@@ -2,10 +2,10 @@
 
 from torch.nn import Module, ModuleList, Linear
 
-from utils import tuple_n, prod
-from windows import SpanningWindows
-from mask_tools import masked_average2D
-from base import HRIUN, HRIUSca
+from hriu.utils import tuple_n, prod
+from hriu.windows import SpanningWindows
+from hriu.mask_tools import masked_average2D
+from hriu.base import HRIUN, HRIUSca
 
 
 class HRIUclassifier(Module):
